@@ -17,7 +17,7 @@ h2 {
     margin: 0 auto;
 }
 
-.functional ul{
+.functional ul {
     list-style-type: disc;
     margin-left: 20px;
     color: #666
@@ -48,4 +48,25 @@ body {
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+    margin-left: 900px;
+    margin-top: -100px;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
 }
