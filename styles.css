@@ -1,6 +1,6 @@
 h1 {
     font-size: 30px;
-    color: coral;
+    color: #333;
     text-align: center;
 }
 
@@ -10,5 +10,42 @@ h2 {
 }
 
 .Logobot img {
-    title: center
+    display: block;
+    height: auto;
+    align-items: center;
+    border: 2px #555;
+    margin: 0 auto;
+}
+
+.functional ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666
+
+}
+
+.functional li {
+    margin-bottom: 10px;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Стилізація контейнера */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.Logobot, .functional, .link {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
